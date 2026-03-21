@@ -1,70 +1,37 @@
-# 🔍 Smart Contract Audit — Simple Staking Contract
+# 🔍 Smart Contract Audits
 
-## 📌 Overview
+This repository contains my security analysis and audit reports for real-world, production-level smart contracts from public GitHub projects.
 
-This folder contains a security analysis and audit report for a real-world smart contract project:
+## 📌 About
 
-* **Project:** simple-staking-contract
-* **Source:** [https://github.com/RealJohnnyTime/simple-staking-contract](https://github.com/RealJohnnyTime/simple-staking-contract)
-* **Contract Audited:** `contracts/Staking.sol`
+The goal of this repository is to:
 
-The goal of this audit is to identify vulnerabilities, analyze design decisions, and suggest improvements for production readiness.
+* Practice and showcase smart contract auditing skills
+* Identify vulnerabilities and security risks
+* Provide clear and structured audit reports
 
----
+## 🧠 Scope
 
-## 📂 Contents
+Each audit typically includes:
 
-* `report.md` → Full audit report with findings and recommendations
-* `notes.md` → Personal analysis process and technical observations
-* `scope.txt` → Defines the exact scope of the audit
+* Code analysis
+* Identified vulnerabilities (with severity levels)
+* Explanations of issues
+* Suggested fixes and improvements
 
----
+## 📂 Structure
 
-## 🧠 Audit Scope
-
-This audit focuses on:
-
-* Staking and reward distribution logic
-* Token handling and ERC20 interactions
-* Security vulnerabilities and edge cases
-* Contract design and best practices
-
----
-
-## 🚨 Summary of Findings
-
-The contract follows a standard reward accounting model but contains several issues:
-
-* **High Severity**
-
-  * Unsafe ERC20 usage
-  * Incorrect handling of fee-on-transfer tokens
-  * Insolvency risk when staking and reward tokens are the same
-
-* **Medium Severity**
-
-  * Payable `stake()` function (ETH can be locked)
-  * Missing validations and events
-  * Misleading signature verification logic
-
-* **Low Severity**
-
-  * No reentrancy guard
-  * Minor precision loss in reward calculations
-
-📌 See `report.md` for full details.
-
----
+```
+/project-name
+  ├── notes.md
+  ├── report.md
+  └── scope.txt
+```
 
 ## ⚠️ Disclaimer
 
-This audit is for **educational and portfolio purposes only**.
-It does not guarantee the security of the contract.
-
----
+These audits are for educational and research purposes only. They do not guarantee complete security of the analyzed contracts.
 
 ## 📬 Contact
 
-If you are a project owner and would like a deeper audit or collaboration, feel free to reach out.
-
----
+Feel free to reach out for collaboration or feedback.
