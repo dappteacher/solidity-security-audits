@@ -6,7 +6,7 @@ This repository contains a security analysis of the following project:
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This audit reviews a staking rewards distribution system based on:
 
@@ -21,7 +21,7 @@ The system includes:
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 * Identify security vulnerabilities
 * Evaluate contract design and architecture
@@ -30,7 +30,7 @@ The system includes:
 
 ---
 
-## 🧱 Audit Structure
+## Audit Structure
 
 | File        | Description                         |
 | ----------- | ----------------------------------- |
@@ -40,13 +40,13 @@ The system includes:
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This audit is an independent educational review and does **not** guarantee the absence of vulnerabilities.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
-**Yaghoub Adelzadeh**
+**Jacob Adelzadeh**
 Smart Contract Security Researcher
