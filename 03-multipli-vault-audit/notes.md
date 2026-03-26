@@ -126,8 +126,6 @@ Security depends more on:
 
 than on pure smart contract safety.
 
----
-
 ## What Makes This Interesting
 
 * Real-world DeFi pattern (cross-chain / async vaults)
