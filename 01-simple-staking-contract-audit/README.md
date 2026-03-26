@@ -1,6 +1,6 @@
-# 🔍 Smart Contract Audit — Simple Staking Contract
+# Smart Contract Audit — Simple Staking Contract
 
-## 📌 Overview
+## Overview
 
 This folder contains a security analysis and audit report for a real-world smart contract project:
 
@@ -12,7 +12,7 @@ The goal of this audit is to identify vulnerabilities, analyze design decisions,
 
 ---
 
-## 📂 Contents
+## Contents
 
 * `report.md` → Full audit report with findings and recommendations
 * `notes.md` → Personal analysis process and technical observations
@@ -20,7 +20,7 @@ The goal of this audit is to identify vulnerabilities, analyze design decisions,
 
 ---
 
-## 🧠 Audit Scope
+## Audit Scope
 
 This audit focuses on:
 
@@ -31,7 +31,7 @@ This audit focuses on:
 
 ---
 
-## 🚨 Summary of Findings
+## Summary of Findings
 
 The contract follows a standard reward accounting model but contains several issues:
 
@@ -52,18 +52,18 @@ The contract follows a standard reward accounting model but contains several iss
   * No reentrancy guard
   * Minor precision loss in reward calculations
 
-📌 See `report.md` for full details.
+See `report.md` for full details.
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This audit is for **educational and portfolio purposes only**.
 It does not guarantee the security of the contract.
 
 ---
 
-## 📬 Contact
+## Contact
 
 If you are a project owner and would like a deeper audit or collaboration, feel free to reach out.
 
