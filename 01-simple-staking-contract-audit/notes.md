@@ -1,0 +1,6 @@
+- Checked rewardPerToken math
+- Reviewed updateReward modifier
+- Tested edge case: stakingToken == rewardsToken
+- Considered fee-on-transfer tokens
+- Reviewed ERC20 compliance assumptions
+- Looked for reentrancy vectors
