@@ -36,8 +36,6 @@ These audits are for educational and research purposes only. They do not guarant
 
 ### Connect
 
-* GitHub: [https://github.com/dappteacher](https://github.com/dappteacher)
-* Gas Analyzer: [https://github.com/dappteacher/gas-analyzer](https://github.com/dappteacher/gas-analyzer)
 * LinkedIn: [https://linkedin.com/in/dappteacher](https://linkedin.com/in/dappteacher)
 
 ---
