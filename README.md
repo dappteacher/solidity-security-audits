@@ -36,6 +36,7 @@ These audits are for educational and research purposes only. They do not guarant
 
 ### Connect
 
+* GitHub: [https://github.com/dappteacher](https://github.com/dappteacher)
 * LinkedIn: [https://linkedin.com/in/dappteacher](https://linkedin.com/in/dappteacher)
 
 ---
